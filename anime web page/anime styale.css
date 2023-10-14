@@ -1,0 +1,103 @@
+* {
+  font-family: sans-serif;
+  margin-left: 10px;
+}
+.content {
+  width: 800px;
+  margin: 50px auto;
+}
+.bgimg {
+  background-image: url("img/bg4.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body {
+  background-color: rgb(231, 199, 161);
+  padding-top: 20px;
+}
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  font-style: italic;
+  color: brown;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+  font-style: italic;
+  color: rgb(234, 134, 28);
+}
+h3 {
+  padding-top: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  color: rgb(246, 132, 11);
+  margin-bottom: 5px;
+}
+h4 {
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+  color: rgb(246, 132, 11);
+}
+
+p {
+  line-height: 1.5;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+ul li {
+  line-height: 2 px;
+  font-size: 25px;
+  list-style: square;
+}
+a:link {
+  color: rgb(255, 0, 166);
+}
+a:visited {
+  color: red;
+}
+a:active {
+  color: green;
+}
+a:hover {
+  list-style: none;
+  color: skyblue;
+}
+.b {
+  border-bottom: 5px solid black;
+  padding-bottom: 10px;
+}
+
+.bu {
+  border-top: 5px solid black;
+  margin-top: 30px;
+}
+button {
+  color: red;
+  background-color: aliceblue;
+}
+button:hover {
+  color: aqua;
+  background-color: black;
+}
+.list {
+  margin-left: 10px;
+}
+.mb {
+  margin-bottom: 20px;
+}
+.imagel {
+  float: left;
+  border: 3px solid black;
+  margin-right: 20px;
+}
+.imager {
+  float: right;
+  border: 3px solid black;
+  margin-right: 20px;
+}
